@@ -12,11 +12,43 @@
 }
 
 /* Estilos para a Imagem Centralizada */
-/* A classe 'inicio' é usada tanto na div quanto na img.
-   Para focar na imagem, selecionamos 'img.inicio' */
-img.inicio {
+.imagem-centralizada { /* Nova classe para centralizar a imagem */
     display: block; /* Essencial para que margin: auto funcione */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     max-width: 100%; /* Garante que a imagem seja responsiva e não ultrapasse o contêiner */
     height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Você pode adicionar estilos para o h2.principais-festas-parana ou para o link dentro dele */
+.principais-festas-parana h2 a {
+    color: blue; /* Exemplo: link azul */
+    text-decoration: none; /* Exemplo: remove sublinhado */
+}
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-titulo { /* Estilo para o título do rodapé */
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.rodape-imagem { /* Estilo para a imagem do rodapé */
+    width: 30px; /* Tamanho da imagem */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 10px;
+}
+
+.rodape a { /* Estilo para o link do rodapé */
+    color: lightblue;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
 }
