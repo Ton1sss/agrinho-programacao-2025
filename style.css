@@ -1,21 +1,22 @@
-/* Estilos para centralizar a imagem com a classe 'inicio' */
-.inicio {
-    display: block; /* Transforma a imagem em um elemento de bloco, permitindo que margin: auto funcione */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente. O "0" define margem superior/inferior para 0. */
-    max-width: 100%; /* Garante que a imagem não exceda a largura do seu contêiner pai */
-    height: auto; /* Mantém a proporção da imagem quando o max-width é aplicado */
+/* Estilos para o Cabeçalho */
+.cabecalho {
+    background-color: green; /* Define a cor de fundo do cabeçalho como verde */
+    color: white; /* Define a cor do texto dentro do cabeçalho como branco para contraste */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    text-align: center; /* Centraliza o texto do cabeçalho */
 }
 
-.imagem-centralizada {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+.cabecalho h1 {
+    margin: 0; /* Remove a margem padrão do h1 dentro do cabeçalho */
+    font-size: 2.5em; /* Ajusta o tamanho da fonte do título principal */
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+/* Estilos para a Imagem Centralizada */
+/* A classe 'inicio' é usada tanto na div quanto na img.
+   Para focar na imagem, selecionamos 'img.inicio' */
+img.inicio {
+    display: block; /* Essencial para que margin: auto funcione */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem seja responsiva e não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
