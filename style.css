@@ -1,0 +1,21 @@
+/* Estilos para centralizar a imagem com a classe 'inicio' */
+.inicio {
+    display: block; /* Transforma a imagem em um elemento de bloco, permitindo que margin: auto funcione */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente. O "0" define margem superior/inferior para 0. */
+    max-width: 100%; /* Garante que a imagem não exceda a largura do seu contêiner pai */
+    height: auto; /* Mantém a proporção da imagem quando o max-width é aplicado */
+}
+
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
