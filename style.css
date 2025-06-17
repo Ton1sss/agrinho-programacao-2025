@@ -9,7 +9,8 @@
 .cabecalho h1 {
     margin: 0; /* Remove a margem padrão do h1 dentro do cabeçalho */
     font-size: 2.5em; /* Ajusta o tamanho da fonte do título principal */
-}
+    display: inline-block;
+}   
 
 /* Estilos para a Imagem Centralizada */
 .imagem-centralizada { /* Nova classe para centralizar a imagem */
@@ -23,7 +24,7 @@
 .principais-festas-parana h2 a {
     color: rgb(0, 0, 0); /* Exemplo: link azul */
     text-decoration: none; /* Exemplo: remove sublinhado */
-    display:inline-block right;
+    display:inline-block ;
 }   
 
 /* Estilos para o rodapé */
