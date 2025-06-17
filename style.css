@@ -1,4 +1,4 @@
-/* Estilos para o Cabeçalho */
+/* Seu código CSS original permanece INTACTO abaixo */
 .cabecalho {
     background-color: green; /* Define a cor de fundo do cabeçalho como verde */
     color: white; /* Define a cor do texto dentro do cabeçalho como branco para contraste */
@@ -9,7 +9,6 @@
 .cabecalho h1 {
     margin: 0; /* Remove a margem padrão do h1 dentro do cabeçalho */
     font-size: 2.5em; /* Ajusta o tamanho da fonte do título principal */
-    display: inline-block;
 }   
 
 /* Estilos para a Imagem Centralizada */
@@ -24,8 +23,6 @@
 .principais-festas-parana h2 a {
     color: rgb(0, 0, 0); /* Exemplo: link azul */
     text-decoration: none; /* Exemplo: remove sublinhado */
-    display:inline-block ;
-    text-align: right;
 }   
 
 /* Estilos para o rodapé */
@@ -54,4 +51,26 @@
 
 .rodape a:hover {
     text-decoration: underline;
+}
+
+/* --- NOVO CÓDIGO AQUI --- */
+
+.cabecalho-nav {
+    display: flex; /* Makes the container a flex container */
+    justify-content: space-between; /* Pushes items to the start and end */
+    align-items: center; /* Vertically centers items if they had different heights */
+    padding: 0 20px; /* Adds some padding on the sides */
+    margin-bottom: 10px; /* Adds space between the nav and the h1 */
+}
+
+.nav-item {
+    color: white; /* Ensures the links are white as per your header */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes them bold */
+    padding: 5px 10px; /* Adds some padding around the links */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.nav-item:hover {
+    color: lightblue; /* Your hover color */
 }
