@@ -23,7 +23,7 @@
 .principais-festas-parana h2 a {
     color: rgb(0, 0, 0); /* Exemplo: link azul */
     text-decoration: none; /* Exemplo: remove sublinhado */
-    display:inline-block ;
+    display:inline-block right;
 }   
 
 /* Estilos para o rodapé */
