@@ -21,9 +21,10 @@
 
 /* Você pode adicionar estilos para o h2.principais-festas-parana ou para o link dentro dele */
 .principais-festas-parana h2 a {
-    color: blue; /* Exemplo: link azul */
+    color: rgb(0, 0, 0); /* Exemplo: link azul */
     text-decoration: none; /* Exemplo: remove sublinhado */
-}
+    display:inline-block ;
+}   
 
 /* Estilos para o rodapé */
 .rodape {
