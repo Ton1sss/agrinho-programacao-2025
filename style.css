@@ -1,5 +1,5 @@
-
-.cabecalho {
+/* Estilos para o cabeçalho */
+.cabecalho { /* Seletor de classe, conforme usado no HTML */
     background-color: green; /* Define a cor de fundo do cabeçalho como verde */
     color: white; /* Define a cor do texto dentro do cabeçalho como branco para contraste */
     padding: 20px; /* Adiciona um preenchimento interno */
@@ -9,21 +9,23 @@
 .cabecalho h1 {
     margin: 0; /* Remove a margem padrão do h1 dentro do cabeçalho */
     font-size: 2.5em; /* Ajusta o tamanho da fonte do título principal */
-}   
+}
 
-/* Estilos para a Imagem Centralizada */
-.imagem-centralizada { /* Nova classe para centralizar a imagem */
+/* Estilos para a imagem do rodeio na seção de início */
+.imagem-rodeio { /* Corrigido de 'imagem-centralizada' para 'imagem-rodeio' para corresponder ao HTML */
     display: block; /* Essencial para que margin: auto funcione */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     max-width: 100%; /* Garante que a imagem seja responsiva e não ultrapasse o contêiner */
     height: auto; /* Mantém a proporção da imagem */
 }
 
-/* Você pode adicionar estilos para o h2.principais-festas-parana ou para o link dentro dele */
-.principais-festas-parana h2 a {
-    color: rgb(0, 0, 0); /* Exemplo: link azul */
-    text-decoration: none; /* Exemplo: remove sublinhado */
-}   
+/* Estilos para o link "Principais festas do Paraná" */
+/* Com base no HTML mais recente, a estrutura é .secao-festas-parana .principais-festas-link h2 a */
+.secao-festas-parana .principais-festas-link h2 a {
+    color: rgb(0, 0, 0); /* Cor do texto do link (preto) */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    /* Você pode adicionar: font-weight: bold; para destacar o texto do link */
+}
 
 /* Estilos para o rodapé */
 .rodape {
@@ -41,7 +43,7 @@
 .rodape-imagem { /* Estilo para a imagem do rodapé */
     width: 30px; /* Tamanho da imagem */
     vertical-align: middle; /* Alinha verticalmente com o texto */
-    margin-right: 10px;
+    margin-right: 10px; /* Espaço à direita da imagem */
 }
 
 .rodape a { /* Estilo para o link do rodapé */
@@ -50,5 +52,5 @@
 }
 
 .rodape a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
